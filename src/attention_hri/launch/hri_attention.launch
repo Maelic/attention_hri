@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+	<node pkg="attention_hri" type="behaviour_manager.py" name="behaviour_manager" output="screen"></node>
+
+	<node pkg="attention_hri" type="moving_object.py" name="moving_object" output="screen"></node>
+
+	<node pkg="attention_hri" type="feed_behaviour.py" name="feed_behaviour" output="screen"></node>
+</launch>

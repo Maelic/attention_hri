@@ -1,0 +1,4 @@
+[console_scripts]
+behaviour = attention_hri.behaviour_manager:main
+center_calculator = attention_hri.feed_behaviour:main
+moving_object = attention_hri.moving_object:main
